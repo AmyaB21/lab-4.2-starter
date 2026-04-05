@@ -1,21 +1,46 @@
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
 
 html {
-    margin: 25px;
-    background-color: lightblue;
+    background-color: orange;
     font-family: verdana;
     font-size: 20px;
+    margin: 0; 
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto; 
+    padding: 25px;
+    background-color: transparent; 
+}
+
+
+nav a, .navbar a {
+    font-size: 25px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+
+.content img {
+    max-width: 50%;     
+    height: auto;       
+    margin: 20px auto;  
+    display: block;    
+    border: 5px solid white; 
 }
 
 h3 {
     margin-top: 20px;
-    background-color: lightblue;
+    background-color: pink;
     font-size: 30px;
     font-weight: bolder;
+    padding: 5px; 
 }
 
 p {
     margin-top: 10px;
-    margin-left: 15px;
     background-color: lightblue;
+    padding: 10px; 
 }
